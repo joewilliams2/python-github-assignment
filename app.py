@@ -9,6 +9,7 @@ hours = input("How many hours did you study today? ")
 
 # Error handling + conversion
 try:
+    
     hours = float(hours)
 except ValueError:
     print("Please enter a valid number.")
