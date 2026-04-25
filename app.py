@@ -20,3 +20,4 @@ weekly_hours = hours * 7
 
 # Output result
 print(f"You are on track to study {weekly_hours} hours this week.")
+
