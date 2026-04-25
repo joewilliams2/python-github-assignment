@@ -6,6 +6,7 @@ print("Welcome to my Python program!")
 # Ask user for input
 hours = input("How many hours did you study today? ")
 
+
 # Error handling + conversion
 try:
     hours = float(hours)
