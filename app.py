@@ -1,4 +1,5 @@
 # Study Time Tracker Program
+
 # This program estimates weekly study hours based on daily input
 
 print("Welcome to my Python program!")
@@ -9,7 +10,7 @@ hours = input("How many hours did you study today? ")
 
 # Error handling + conversion
 try:
-    
+
     hours = float(hours)
 except ValueError:
     print("Please enter a valid number.")
