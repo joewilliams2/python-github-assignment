@@ -1,21 +1,8 @@
-# python-github-assignment
-# Study Time Tracker Program
-# This program estimates weekly study hours based on daily input
+# Study Time Tracker
 
-print("Welcome to my Python program!")
+## Description
+This program asks the user how many hours they studied in a day and estimates how many hours they will study in a week. It helps users understand their study habits and track their progress toward academic goals.
 
-# Ask user for input
-hours = input("How many hours did you study today? ")
-
-# Error handling + conversion
-try:
-    hours = float(hours)
-except ValueError:
-    print("Please enter a valid number.")
-    exit()
-
-# Calculation
-weekly_hours = hours * 7
-
-# Output result
-print(f"You are on track to study {weekly_hours} hours this week.")
+## How to Run
+```bash
+python app.py
